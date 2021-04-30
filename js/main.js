@@ -134,6 +134,14 @@ if($().circleProgress){
 		fill: "#009fff",
 		emptyFill: "rgba(0, 0, 0, 0)"
 	});
+
+	$("#progress7").circleProgress({
+		value: 0.65,
+		size: 175,
+		thickness: 2,
+		fill: "#40424a",
+		emptyFill: "rgba(0, 0, 0, 0)"
+	});
 }
 
 })(jQuery);
